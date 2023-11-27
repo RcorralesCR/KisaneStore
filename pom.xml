@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.KisaneStore</groupId>
     <artifactId>KisaneStore</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1</version>
     <name>KisaneStore</name>
     <description>Proyecto del Curso Web y Patrones KisaneStore 2023 3c</description>
     <properties>
@@ -65,7 +65,7 @@
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>webjars-locator</artifactId>
-            <version>0.47</version>
+            <version>0.48</version>
         </dependency>    
         <dependency>
             <groupId>com.mysql</groupId>
@@ -97,7 +97,7 @@
         <dependency>
             <groupId>net.sf.jasperreports</groupId>
             <artifactId>jasperreports</artifactId>
-            <version>6.20.5</version>
+            <version>6.20.6</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

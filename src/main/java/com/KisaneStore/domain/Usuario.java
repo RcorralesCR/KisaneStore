@@ -30,7 +30,7 @@ public class Usuario implements Serializable {
     private String apellidos;
     private String correo;
     private String telefono;    
-    private String rutaImagen;
+    private String ruta_imagen;
     private boolean activo;
     
     @OneToMany

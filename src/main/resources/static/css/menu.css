@@ -9,10 +9,13 @@ body{
     padding: 80px 20px 0;
     
 }
+main.header{
+    background-color: lightblue;
+}
 
 .header{
     position: fixed;
-    background-color:  #076Af0;
+    background-color:  lightskyblue;
     height: 80px;
     width: 100%;
     top: 0;
@@ -60,6 +63,6 @@ body{
 
 .nav-menu-link:hover {
     
-    background-color: #024070;
+    background-color: lavender;
     transition: 0.5s;    
 }

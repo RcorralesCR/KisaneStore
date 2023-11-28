@@ -17,7 +17,6 @@
             <nav class="navbar navbar-expand-sm navbar-light bg-light p-0">
                 <div class="container">
                     <a th:href="@{/}" class="navbar-brand">[[#{aplicacion.titulo}]]</a>
-                    <img src="../../img/Logo.jpg" alt=""/>
                     <button class="navbar-toggler" 
                             data-bs-toggle="collapse" 
                             data-bs-target="#navbarCollapse">
@@ -72,7 +71,7 @@
                             </li>
                             <li class ="nav-item my-auto">
                                 <form method ="post" th:action="@{/logout}">
-                                    <button class="btn btn-dark">
+                                    <button class="btn btn-secondary">
                                         <i class='fas fas-sign-out-alt'></i>
                                     </button>
                                 </form>
@@ -82,7 +81,7 @@
                     </div>
                 </div>
             </nav>
-            <section id="main-header" class="py-2 bg-success text-white">
+            <section id="main-header" class="py-2 bg-info text-white">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">                            

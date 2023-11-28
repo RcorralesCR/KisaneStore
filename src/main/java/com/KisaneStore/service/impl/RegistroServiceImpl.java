@@ -55,7 +55,7 @@ public class RegistroServiceImpl implements RegistroService {
 
         if (!imagenFile.isEmpty()) {
             usuarioService.save(usuario, false);
-            usuario.setRutaImagen(
+            usuario.setRuta_imagen(
                     firebaseStorageService.cargaImagen(
                             imagenFile, 
                             "usuarios", 

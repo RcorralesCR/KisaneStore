@@ -26,7 +26,7 @@ public class Producto implements Serializable {
     private String detalle;
     private double precio;
     private int existencias;
-    private String rutaImagen;
+    private String ruta_imagen;
     private boolean activo;
     
     //Para hacer una "asociaciòn" de muchos a uno, usando id_categoria como llave

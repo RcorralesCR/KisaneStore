@@ -48,7 +48,7 @@ public class ProductoController {
             @RequestParam("imagenFile") MultipartFile imagenFile) {
         if (!imagenFile.isEmpty()) {
             productoService.save(producto);
-            producto.setRutaImagen(
+            producto.setRuta_imagen(
                     firebaseStorageService.cargaImagen(
                             imagenFile,
                             "producto",

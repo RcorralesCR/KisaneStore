@@ -152,7 +152,7 @@
                           class="was-validated"                          
                           enctype="multipart/form-data">
                         <input type="hidden" name="idProducto" th:field="*{idProducto}"/>
-                        <input type="hidden" name="rutaImagen" th:field="*{rutaImagen}"/>
+                        <input type="hidden" name="ruta_imagen" th:field="*{ruta_imagen}"/>
                         <section th:replace="~{producto/fragmentos :: botonesEditar}"/>
                         <div id=details>
                             <div class="container">
@@ -201,10 +201,10 @@
                                                            th:field="*{activo}">
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label for="imagen">[[#{producto.rutaImagen}]]</label>
+                                                    <label for="imagen">[[#{producto.ruta_imagen}]]</label>
                                                     <input class="form-control" type="file" name="imagenFile"
                                                            onchange="readURL(this);" />
-                                                    <img id="blah" th:src="@{${producto.rutaImagen}}" alt="your image" height="200"/>
+                                                    <img id="blah" th:src="@{${producto.ruta_imagen}}" alt="your image" height="200"/>
                                                 </div>
                                             </div>
                                         </div>
